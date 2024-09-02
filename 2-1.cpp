@@ -15,7 +15,7 @@ struct node *start = NULL;
 struct node *create(struct node*);
 struct node *display(struct node*);
 void reverse(struct node*);
-struct node *deleteall(struct node*);
+struct node *deleteall(struct node*); // Function declare but not used.
 
 int main()
 {

@@ -14,7 +14,6 @@ int top = -1;
 
 void push(float a);
 float pop();
-void getinfix();
 void intopostfix(char expr[]);
 int preced(char a);
 void reverse_expr(char str[]);

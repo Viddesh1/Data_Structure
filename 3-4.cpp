@@ -48,3 +48,14 @@ Enter the number of rings: 3
 
 // Reference tower of hanoi game: 
 // https://www.mathsisfun.com/games/towerofhanoi.html
+
+// This Recursion is most complex I don't even understood the half of it.
+// Take a look at this website to visualize things much better
+// https://pythontutor.com/
+
+//                  move(3, A, C, B)
+//                 /        |                \
+//     move(2, A, B, C)   move(1, A, C, B)  move(2, B, C, A)
+//         /     |     \                    /       |         \
+// move(1, A, C, B)   move(1, A, B, C) move(1, B, A, C) move(1, B, C, A)
+

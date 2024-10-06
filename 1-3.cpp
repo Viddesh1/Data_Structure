@@ -225,3 +225,124 @@ void transpose2()
         printf("\n");
     }
 }
+
+
+// Output of the following code
+/*
+$ ./1-3
+
+ ***** MAIN MENU *****
+1. Create 1st matrix: 
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 1
+Enter the number of rows and colums of 1st matrix: 3
+3
+Enter the elements 1st of matrix: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+The 1st array is: 
+1       2       3
+4       5       6
+7       8       9
+
+ ***** MAIN MENU *****
+1. Create 1st matrix:
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 2
+Enter the number of rows and columns of 2nd matrix: 3
+3
+Enter the elements of 2nd matrix: 
+9
+8
+7
+6
+5
+4
+3
+2
+1
+The 2nd matrix is: 
+9       8       7
+6       5       4
+3       2       1
+
+ ***** MAIN MENU *****
+1. Create 1st matrix:
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 3
+Sum of the first and second matrix is: 
+10      10      10
+10      10      10
+10      10      10
+
+ ***** MAIN MENU *****
+1. Create 1st matrix:
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 4
+30      24      18      
+84      69      54
+138     114     90
+
+ ***** MAIN MENU *****
+1. Create 1st matrix:
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 5
+1       4       7
+2       5       8
+3       6       9
+
+ ***** MAIN MENU *****
+1. Create 1st matrix:
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 6
+9       6       3
+8       5       2
+7       4       1
+
+ ***** MAIN MENU *****
+1. Create 1st matrix:
+2. Create 2nd matrix:
+3. Addition
+4. Multiplication
+5. Transpose of 1st matrix:
+6. Transpose of 2nd matrix
+7. Exit
+Enter your choice: 7
+*/

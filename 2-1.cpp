@@ -122,3 +122,47 @@ struct node *display(struct node *start)
     printf("\n");
     return start;
 }
+
+// Output:-
+/*
+$ ./2-1
+
+ ***** MAIN MENU *****
+1. Create a list 
+2. Display list
+3. Reverse
+4. Exit
+Enter your choice: 1
+
+Enter the data or enter -1 to exit: 1
+Enter the data or enter -1 to exit: 2
+Enter the data or enter -1 to exit: 3
+Enter the data or enter -1 to exit: 4
+Enter the data or enter -1 to exit: -1
+Linked list successfully created.
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Exit
+Enter your choice: 2
+
+The linked list is:      1       2       3       4
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Exit
+Enter your choice: 3
+
+The linked list is:      4       3       2       1
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Exit
+Enter your choice: 4
+*/

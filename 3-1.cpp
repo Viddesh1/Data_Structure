@@ -156,3 +156,167 @@ int isfull()
         return 0;
     }
 }
+
+// output
+/*
+$ ./3-1
+
+ ***** MAIN MENU *****
+1. Push 
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter the value to be pushed: 1
+Successfully pushed 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter the value to be pushed: 2
+Successfully pushed 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 4
+The Stack is 
+         2       1
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter the value to be pushed: 3
+Successfully pushed 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter the value to be pushed: 5
+Successfully pushed 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 4
+The Stack is 
+         5       3       2       1
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 3
+The topmost element is 5
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter the value to be pushed: 6
+Successfully pushed 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 3
+The topmost element is 6
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The value popped is 6 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The value popped is 5 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The value popped is 3 
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The value popped is 2
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The value popped is 1
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The stack is empty
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 2
+The stack is empty
+
+ ***** MAIN MENU *****
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 5
+*/

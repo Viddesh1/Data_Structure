@@ -133,3 +133,88 @@ void reverse(int n)
 
     }
 }
+
+
+// Output of the following code
+/*
+$ ./1-1
+
+Enter the number of elements: 5
+Enter 0th element: 5
+Enter 1th element: 4
+Enter 2th element: 3
+Enter 3th element: 2
+Enter 4th element: 1
+
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 1
+5
+4
+3
+2
+1
+
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 2
+Enter value to be searched: 2
+Value found at location 4
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 3
+
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 1
+1
+2
+3
+4
+5
+
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 4
+
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 1
+5
+4
+3
+2
+1
+
+ ******MAIN MENU******
+1. Display
+2. Search
+3. Sort
+4. Reverse
+5. Exit
+Enter your choice: 5
+*/

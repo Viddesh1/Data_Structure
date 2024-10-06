@@ -126,3 +126,81 @@ struct node* deleteall(struct node *head) {
     head = NULL; // After deletion, set head to NULL
     return head;
 }
+
+
+// Output of the following code
+/*
+$ ./2-1-1
+
+ ***** MAIN MENU *****
+1. Create a list 
+2. Display list
+3. Reverse
+4. Delete all
+5. Exit
+Enter your choice: 1
+
+Enter the data or enter -1 to exit: 1
+Enter the data or enter -1 to exit: 2
+Enter the data or enter -1 to exit: 3
+Enter the data or enter -1 to exit: 4
+Enter the data or enter -1 to exit: 5
+Enter the data or enter -1 to exit: 6
+Enter the data or enter -1 to exit: -1
+Linked list successfully created. 
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Delete all
+5. Exit
+Enter your choice: 2
+
+The linked list is:     1       2       3       4       5    
+6
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Delete all
+5. Exit
+Enter your choice: 3
+
+The linked list is:     6       5       4       3       2    
+1
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Delete all
+5. Exit
+Enter your choice: 4
+
+Deleting node with data: 6
+Deleting node with data: 5
+Deleting node with data: 4
+Deleting node with data: 3
+Deleting node with data: 2
+Deleting node with data: 1
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Delete all
+5. Exit
+Enter your choice: 2
+
+The linked list is:
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display list
+3. Reverse
+4. Delete all
+5. Exit
+Enter your choice: 5
+*/

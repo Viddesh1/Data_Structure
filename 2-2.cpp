@@ -136,3 +136,54 @@ struct node *display(struct node *start)
     printf("\n");
     return start;
 }
+
+// output:-
+/*
+$ ./2-2
+
+ ***** MAIN MENU *****
+1. Create a list 
+2. Display the list
+3. search
+4. Exit
+Enter your choice: 1
+Enter the data or enter -1 to exit: 1
+Enter the data or enter -1 to exit: 2
+Enter the data or enter -1 to exit: 3
+Enter the data or enter -1 to exit: 4
+Enter the data or enter -1 to exit: -1
+Linked list successfully created.
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. search
+4. Exit
+Enter your choice: 2
+The linked list is:      1       2       3       4
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. search
+4. Exit
+Enter your choice: 3
+Which value are you looking for? :
+2
+Value founf at 2 node
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. search
+4. Exit
+Enter your choice: 3
+Which value are you looking for? :
+4
+Value found at 4 node
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. search
+4. Exit
+Enter your choice: 4
+*/

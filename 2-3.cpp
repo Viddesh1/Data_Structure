@@ -162,3 +162,46 @@ struct node *sort(struct node *start)
     
     return start;
 }
+
+// output:-
+/*
+$ ./2-3
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. Sort the list
+4. Exit
+Enter your choice: 1
+Enter the data or -1 to exit: 5
+Enter the data or enter -1 to exit: 4
+Enter the data or enter -1 to exit: 3
+Enter the data or enter -1 to exit: 2
+Enter the data or enter -1 to exit: 1
+Enter the data or enter -1 to exit: -1
+Linked list created successfully
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. Sort the list
+4. Exit
+Enter your choice: 2
+The Linked list is: 5 <--> 4 <--> 3 <--> 2 <--> 1
+
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. Sort the list
+4. Exit
+Enter your choice: 3
+The linked list is: 1 <--> 2 <--> 3 <--> 4 <--> 5
+
+
+ ***** MAIN MENU *****
+1. Create a list
+2. Display the list
+3. Sort the list
+4. Exit
+Enter your choice: 4
+*/

@@ -29,6 +29,7 @@ int main()
         printf("4. Sort 2nd array \n");
         printf("5. Merge \n");
         printf("6. Sorted Merged array \n");
+        printf("7. Exit \n");
 
         printf("Enter your choice: ");
         scanf("%d", &choice);
@@ -172,3 +173,114 @@ void merged(int l[], int r[])
         k++;
     }
 }
+
+
+// Output of the following code
+/*
+$ ./1-2
+
+ ***** MAIN MENU *****
+1. Create 1st array: 
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 1
+Enter number of elements: 5
+Enter 0th element5
+Enter 1th element4
+Enter 2th element3
+Enter 3th element2
+Enter 4th element1
+1st array is: 5
+4
+3
+2
+1
+
+ ***** MAIN MENU *****
+1. Create 1st array:
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 2
+Enter number of elements: 5 
+Enter 0th element10
+Enter 1th element9
+Enter 2th element8
+Enter 3th element7
+Enter 4th element6
+2nd array is: 10
+9
+8
+7
+6
+
+ ***** MAIN MENU *****
+1. Create 1st array:
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 3
+Sorted 1st array is: 1
+2
+3
+4
+5
+
+ ***** MAIN MENU *****
+1. Create 1st array:
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 4
+Sorted 2nd array is: 6
+7
+8
+9
+10
+
+ ***** MAIN MENU *****
+1. Create 1st array:
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 5
+
+ ***** MAIN MENU *****
+1. Create 1st array:
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 6
+The merged sorted array is: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+ ***** MAIN MENU *****
+1. Create 1st array:
+2. Create 2nd array:
+3. Sort 1st array
+4. Sort 2nd array
+5. Merge
+6. Sorted Merged array
+Enter your choice: 7
+*/

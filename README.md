@@ -6,7 +6,7 @@ Wingw with base and C, C++
 
 # How to debug the program:
 g++ 2-1.cpp -o 2-1
-g++ -g -o 2-1 2-1.cpp
+g++ -g 2-1.cpp -o 2-1
 gdb ./2-1
 break main
 run

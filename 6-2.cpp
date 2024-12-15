@@ -65,3 +65,19 @@ int main()
         return 0;
     }
 }
+
+// Output
+/*
+$ ./6-2
+Enter the number of elements: 5
+Enter a value:  1
+Enter a value:  3
+Enter a value:  2
+Enter a value:  5
+Enter a value:  4
+
+ Enter value to be searched:    4
+Value found at position 5
+Do you want to continue?
+y
+*/

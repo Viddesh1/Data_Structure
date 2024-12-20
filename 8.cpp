@@ -1,5 +1,8 @@
 // ------------------------------------------------------------------------------------------------------------------------------------
 // Write a program to insert the element in the maximum heap.
+// Max Heap visualization: https://www.cs.usfca.edu/~galles/visualization/Heap.html
+// Note:- This program does not work has it should be.
+//  For array[3, 6, 10, 12, 15] output should be -> a[15, 12, 6, 3, 10]
 // ------------------------------------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
@@ -21,7 +24,7 @@ int main()
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    for (i=0; i<=n; i++)
+    for (i=0; i<n; i++)
     {
         printf("Enter a value: ");
         scanf("%d", &a[i]);

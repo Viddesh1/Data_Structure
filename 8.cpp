@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------------------------------------------------------------------------
 // Write a program to insert the element in the maximum heap.
-// Max Heap visualization: https://www.cs.usfca.edu/~galles/visualization/Heap.html
+// Min Heap visualization: https://www.cs.usfca.edu/~galles/visualization/Heap.html
 // Note:- This program does not work has it should be.
 //  For array[3, 6, 10, 12, 15] output should be -> a[15, 12, 6, 3, 10]
 // ------------------------------------------------------------------------------------------------------------------------------------
@@ -113,21 +113,21 @@ int length(int a[])
     return i;
 }
 
-// output
+// output :- 
+// (Not checking if the 15 > 3 and then swap and then again 15 > 10 swap)
 /*
 $ ./8
+$ ./8
 Enter the number of elements: 5
-Enter a value: 2
-
 Enter a value: 3
-2
-Enter a value: 4
-3 2
-Enter a value: 1
-4 2 3
-Enter a value: 5
-4 2 3 1
-Enter a value: 2
-4 5 3 1 2
-4 5 3 1 2
+
+Enter a value: 6
+3
+Enter a value: 10
+6 3
+Enter a value: 12
+10 3 6
+Enter a value: 15
+10 12 6 3
+10 12 6 3 15
 */

@@ -93,6 +93,10 @@ Enter the elements: 23 43 13 27 18
 
 -->
 
+We will initialize an hash with -1 at first which will represents the empty values
+that are present in the array. Using rehashq() function we can call the hashq() function
+if the element is filled.
+
 let the array = [23, 43, 13, 27, 18]
 SIZE = 10
 Indexing starts from 0 to 9

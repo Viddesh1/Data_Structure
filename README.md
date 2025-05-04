@@ -8,7 +8,10 @@ https://sourceforge.net/projects/mingw/ <br />
 OR                                      <br />
 Directly search for "wingw download"    <br />
 
-After installing select the below packages to install for C, C++ along with gdb:-
+After installing select the below packages to install for C, C++ along with gdb:- <br />
+
+From Basic installation/setup:- <br />
+
 1) wingw-developer-toolkit
 2) wingw32-base
 3) wingw32-gcc-g++
